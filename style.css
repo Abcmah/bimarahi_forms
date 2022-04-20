@@ -1,0 +1,114 @@
+*{
+    padding: 0%;
+    margin: 0;
+}
+
+/* ============================
+navbar
+============================ */
+#navbar{
+    /* display: flex; */
+    background-color: rgb(116, 116, 231);
+}
+#navbar .container{
+    display: flex;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+}
+.logo .motoo{
+    display: flex;
+    align-items: flex-end;
+    color: aliceblue;
+    margin-left: 1rem;
+
+}
+.logo img{
+    height: 60px;
+}
+.links ul{
+    display: flex;
+}
+.links ul li{
+    list-style: none;
+    padding-left: 1rem;
+}
+a{
+    text-decoration: none;
+}
+.links ul li a{
+    color: aliceblue;
+}
+.sub-nav{
+    background-color: black;
+    height: 3rem;
+    display: flex;
+}
+.sub-nav ul,a{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+.sub-nav .container ul li{
+list-style: none;
+display: flex;
+height: 100%;
+align-items: center;
+}
+.sub-nav .container ul li a{
+    width: 150px;
+    color: #fff;
+}
+.sub-nav .container ul li .active{
+    color: rgb(17, 17, 17);
+    background-color: aliceblue;
+}
+/* =====================
+tab .forms
+===================== */
+.forms{
+    width: 40%;
+    box-shadow: -1px -1px 10px rgb(182, 173, 173);
+    border-radius: 10px;
+    padding-bottom: 10px;
+    margin-top: 1rem;
+    transition: 5s ease-in-out;
+}
+.nav-tabs{
+    display: flex;
+justify-content: space-between;
+}
+.nav-tabs li a{
+    color: aliceblue;
+   
+}
+.form-fields{
+    display: flex;
+    /* margin-bottom: 0.5rem; */
+    margin-top: 0.5rem;
+}
+.tab-one{
+    display: block;
+}
+.tab-two{
+    display: none;
+}
+.tab-three{
+    display: none;
+}
+.form-labels{
+    width: 40%;  
+}
+.nav-link{
+    background-color: rgb(69, 69, 228);
+}
+/*button*/
+.form-btn{
+margin-top: 1.5rem;
+display: flex;
+justify-content:flex-end;
+}
