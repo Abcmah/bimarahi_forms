@@ -29,6 +29,10 @@ navbar
 .logo img{
     height: 60px;
 }
+#nav-icon{
+height: 20px;
+width: 20px;
+}
 .links ul{
     display: flex;
 }
@@ -41,6 +45,9 @@ a{
 }
 .links ul li a{
     color: aliceblue;
+    padding-top: 0;
+    flex-direction: column;
+    display: flex;
 }
 .sub-nav{
     background-color: black;
@@ -112,3 +119,25 @@ margin-top: 1.5rem;
 display: flex;
 justify-content:flex-end;
 }
+/* mobile */
+@media (max-width: 991px) {
+    #navbar .container{
+        flex-direction: column;
+        justify-content: center; 
+        padding-bottom: 0;
+    }
+    .links ul{
+        padding-top: 2rem;
+        justify-content: center;
+    }
+    .forms{
+        width: 100%;
+
+    }
+    .links ul li a{
+        flex-direction: row
+    }
+    .logo img{
+        height: 45px;
+    }
+    }
